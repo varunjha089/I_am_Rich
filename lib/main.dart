@@ -15,10 +15,12 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         //5. https://api.flutter.dev/flutter/widgets/Image-class.html
-        body: Image(
-          image: NetworkImage(
-              //6. https://flutter.dev/docs/development/platform-integration/web-images
-              'https://photo-album-app-varunjha089.s3.amazonaws.com/IMG-20210530-WA0005.jpg'),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                //6. https://flutter.dev/docs/development/platform-integration/web-images
+                'https://photo-album-app-varunjha089.s3.amazonaws.com/IMG-20210530-WA0005.jpg'),
+          ),
         ),
       ),
     ),
