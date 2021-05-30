@@ -14,7 +14,12 @@ void main() {
           //3. https://material.io/design/color/the-color-system.html#color-usage-and-palettes
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Image(),
+        //5. https://api.flutter.dev/flutter/widgets/Image-class.html
+        body: Image(
+          image: NetworkImage(
+              //6. https://flutter.dev/docs/development/platform-integration/web-images
+              'https://photo-album-app-varunjha089.s3.amazonaws.com/IMG-20210530-WA0005.jpg'),
+        ),
       ),
     ),
   );
