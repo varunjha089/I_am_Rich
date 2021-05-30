@@ -19,6 +19,10 @@ void main() {
           child: Image(
             image: NetworkImage(
                 //6. https://flutter.dev/docs/development/platform-integration/web-images
+                //7. To wrap the widget quickly
+                //      > Place the cursor over there.
+                //      > hit ALT + ENTER
+                //      > select "Wrap with Center".
                 'https://photo-album-app-varunjha089.s3.amazonaws.com/IMG-20210530-WA0005.jpg'),
           ),
         ),
