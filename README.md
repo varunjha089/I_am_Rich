@@ -6,6 +6,10 @@ A new Flutter project to learn flutter.
 
 Import this application in android studio to get started, and run it on android device.
 
+Resources:
+-   https://appicon.co/
+-   https://www.udemy.com/course/flutter-bootcamp-with-dart/
+
 ## Pre Generated
 This project is a starting point for a Flutter application.
 
