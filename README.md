@@ -1,9 +1,12 @@
 # i_am_rich
 
-A new Flutter project.
+A new Flutter project to learn flutter.
 
 ## Getting Started
 
+Import this application in android studio to get started, and run it on android device.
+
+## Pre Generated
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
